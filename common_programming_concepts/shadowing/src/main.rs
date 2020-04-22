@@ -8,7 +8,7 @@ fn main() {
   println!("The value of x is: {}", x);  
 
 
-  let spaces = "fasdfasdfasdfasd fsad fasdfsdfkljs d";
+  let mut spaces = "fasdfasdfasdfasd fsad fasdfsdfkljs d";
   println!("spaces: {:?}", spaces);
 
   let spaces = spaces.len();
